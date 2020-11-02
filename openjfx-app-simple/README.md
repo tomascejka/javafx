@@ -16,3 +16,4 @@ mvn clean javafx:run
 
 ## Zdroje
 * https://openjfx.io/openjfx-docs/#maven << OpenJFX - Run HelloWorld using Maven
+* https://github.com/openjfx/javafx-maven-plugin#usage << Použití maven plugin-u, resp. příkazu ```javafx:run```
