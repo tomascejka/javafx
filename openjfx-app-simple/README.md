@@ -1,16 +1,17 @@
 # openjfx-app-simple
-Velmi jednoduchá aplikace - "helloworld", presentující použití [https://openjfx.io/index.html](openjfx) (implementace Java FX).
+Velmi jednoduchá aplikace - "helloworld", presentující použití [openjfx](https://openjfx.io/index.html) (implementace Java FX).
 
 ## Předpoklady
 V případě, že si budete chtít spustit, anebo si hrát se zdrojovými kódy, tak jsem to ladil s těmito nástroji:
-* oracle jdk 11+
-* [https://archive.apache.org/dist/maven/maven-3/3.6.3/binaries/](apache maven v3.6.3)
-* [https://openjfx.io/index.html](openjxf)
+* [oracle jdk v11+](https://www.oracle.com/java/technologies/javase-downloads.html)
+* [apache maven v 3.6.3](https://archive.apache.org/dist/maven/maven-3/3.6.3/binaries/)
+* [openjxf](https://openjfx.io/index.html)
+* [openjxf maven plugin](https://github.com/openjfx/javafx-maven-plugin)
 
 ## Použití
-Stačí spustit v root adresáři v kterém je ```pom.xml``` soubor tento příkaz:
+Stačí spustit v root adresáři v kterém je ```pom.xml``` soubor příkaz ```javafx:run```:
 ```
-mvn clean 
+mvn clean javafx:run
 ```
 
 ## Zdroje
