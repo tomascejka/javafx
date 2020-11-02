@@ -24,3 +24,4 @@ hs_err_pid*
 /openjfx-app-simple/.project
 /openjfx-app-simple/.settings
 /openjfx-app-simple/.classpath
+/openjfx-app-simple/target
