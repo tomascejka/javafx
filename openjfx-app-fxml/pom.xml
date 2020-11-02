@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>cz.toce.learn</groupId>
+	<artifactId>openjfx-app-fxml</artifactId>
+	<packaging>jar</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	
+	<description>Simple project demonstrate using openjfx and fxml feature</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.se.version>11</java.se.version>
+		<!-- openjxf -->
+		<mvn.plugin.openjfx.version>0.0.5</mvn.plugin.openjfx.version><!-- https://mvnrepository.com/artifact/org.openjfx/javafx-maven-plugin -->
+		<org.openjfx.version>16-ea+3</org.openjfx.version><!-- https://mvnrepository.com/artifact/org.openjfx/javafx-controls -->
+		<!-- third deps -->
+		<miglayout.version>5.2</miglayout.version><!-- https://mvnrepository.com/artifact/com.miglayout/miglayout-javafx -->
+		<slf4j.version>1.7.30</slf4j.version>
+		<log4j.version>1.2.17</log4j.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>${java.se.version}</source>
+					<target>${java.se.version}</target>
+				</configuration>
+			</plugin>
+			<!-- openjfx -->
+			<plugin>
+				<groupId>org.openjfx</groupId>
+				<artifactId>javafx-maven-plugin</artifactId>
+				<version>${mvn.plugin.openjfx.version}</version>
+				<configuration>
+					<mainClass>cz.toce.learn.openjfx.app.fxml.MainApp</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+	<dependencies>
+		<!-- openjfx -->
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>${org.openjfx.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+			<version>${org.openjfx.version}</version>
+		</dependency>
+		<!-- miglayout-javafx -->
+		<dependency>
+			<groupId>com.miglayout</groupId>
+			<artifactId>miglayout-javafx</artifactId>
+			<version>${miglayout.version}</version>
+		</dependency>
+		<!-- Logging -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
