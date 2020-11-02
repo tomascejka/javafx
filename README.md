@@ -11,3 +11,4 @@ O studium a testování o možnosti -jak naprogramovat desktop GUI via java.fx
 * https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm << jak používat FXML v javafx
 * https://docs.oracle.com/javafx/2/get_started/hello_world.htm << oficiální oracle java fx tutoriál pro různé zkoušení
 * http://tutorials.jenkov.com/javafx/index.html
+* https://java.vse.cz/4it115/Buchalcevova << přednášky česky o java fx
