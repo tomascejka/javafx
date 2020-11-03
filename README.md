@@ -3,8 +3,10 @@
 Repositář pro studium a testování - jak naprogramovat desktop GUI via [java.fx](https://en.wikipedia.org/wiki/JavaFX).
 
 ## Changelog
-* 02/11/2020 prozatím přikládám zdroje, které jsem prošel a zkusil si jednoduchý "Hello world"
-* 03/11/2020 dokládám další zdroje, změna formulace popisu
+| Kdy        | Kdo         | Co           |
+| ---------- |:-----------:| :---------------------------------------------------------------------------------|
+| 02/11/2020 | tomas.cejka | prozatím přikládám zdroje, které jsem prošel a zkusil si jednoduchý "Hello world" |
+| 03/11/2020 | tomas.cejka | dokládám další zdroje, změna formulace popisu, upravuji/rozděluji fxml/fxml+miglayout projekty |
 
 ## Verse JavaFX
 Do [JDK8](https://docs.oracle.com/javase/8/docs/) lze použít oficiální oracle [distribuci](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm), od [JDK11](https://docs.oracle.com/en/java/javase/11/) je nutné použít již [OpenJFX projekt](https://wiki.openjdk.java.net/display/OpenJFX).
