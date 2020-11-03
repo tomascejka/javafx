@@ -1,5 +1,5 @@
 # openjfx-app-fxml
-Velmi jednoduchá aplikace - formulář se dvě input boxy, presentující použití [openjfx](https://openjfx.io/index.html) (implementace Java FX) a zároveň použití tzv. [FXML](https://en.wikipedia.org/wiki/FXML).
+Velmi jednoduchá aplikace - formulář se dvě input boxy, presentující použití [openjfx](https://openjfx.io/index.html) (implementace Java FX) a zároveň použití tzv. [FXML](https://en.wikipedia.org/wiki/FXML). Obsahově/design vychází z tohoto [tutoriálu](https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm).
 
 ## Co to je FXML
 Citace:
@@ -33,12 +33,19 @@ mvn clean javafx:run
 ### Eclipse IDE
 V tomto případě jsem použil Eclipse v2020-09 a [doinstaloval](https://download.eclipse.org/efxclipse/updates-released/3.7.0/site/) (konrkétně tuto versi v3.7.0) jsem si plugin, viz.(https://wiki.eclipse.org/Efxclipse/Tutorials/AddingE(fx)clipse_to_eclipse) pro JavaFX. Původně jsem čerpal z tohoto [zdroje](https://docs.oracle.com/javafx/scenebuilder/1/use_java_ides/sb-with-eclipse.htm), který poukázal na existenci [e(fx)clipse](https://www.eclipse.org/efxclipse/install.html) pluginu pro JavaFX.
 
-### 
+### Scene Builder
+Toto je výborný [nástroj](https://www.oracle.com/java/technologies/javase/javafxscenebuilder-info.html) od Oracle pro namodelování scény, vzhledu formulářu a vůbec JavaFX aplikací s tím,že z toho vypadne FXML soubor.
 
 ## Zdroje
+
+### OpenJFX
 * https://github.com/openjdk/jfx/
 * https://openjfx.io/index.html
-* https://openjfx.io/openjfx-docs/#maven << OpenJFX - Run HelloWorld using Maven
-* https://github.com/openjfx/javafx-maven-plugin#usage << Použití maven plugin-u, resp. příkazu ```javafx:run```
+
+### Nástroje
+* https://www.oracle.com/java/technologies/javase/javafxscenebuilder-info.html
+* https://www.vojtechruzicka.com/javafx-fxml-scene-builder/
 * https://www.eclipse.org/efxclipse/index.html << Eclipse IDE plugin pro JavaFX
 * https://wiki.eclipse.org/Efxclipse/Tutorials/AddingE(fx)clipse_to_eclipse << Eclipse IDE plugin pro JavaFX
+
+
