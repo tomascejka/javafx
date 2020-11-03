@@ -37,7 +37,5 @@ Caused by: java.lang.ClassNotFoundException: org.tbee.javafx.scene.layout.fxml.M
 * http://www.miglayout.com/
 * https://github.com/openjdk/jfx/
 * https://openjfx.io/index.html
-* https://openjfx.io/openjfx-docs/#maven << OpenJFX - Run HelloWorld using Maven
-* https://github.com/openjfx/javafx-maven-plugin#usage << Použití maven plugin-u, resp. příkazu ```javafx:run```
 * https://www.eclipse.org/efxclipse/index.html << Eclipse IDE plugin pro JavaFX
 * https://wiki.eclipse.org/Efxclipse/Tutorials/AddingE(fx)clipse_to_eclipse << Eclipse IDE plugin pro JavaFX
