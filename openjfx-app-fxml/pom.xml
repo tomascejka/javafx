@@ -19,7 +19,6 @@
 		<mvn.plugin.openjfx.version>0.0.5</mvn.plugin.openjfx.version><!-- https://mvnrepository.com/artifact/org.openjfx/javafx-maven-plugin -->
 		<org.openjfx.version>16-ea+3</org.openjfx.version><!-- https://mvnrepository.com/artifact/org.openjfx/javafx-controls -->
 		<!-- third deps -->
-		<miglayout.version>5.2</miglayout.version><!-- https://mvnrepository.com/artifact/com.miglayout/miglayout-javafx -->
 		<slf4j.version>1.7.30</slf4j.version>
 		<log4j.version>1.2.17</log4j.version>
 	</properties>
@@ -60,12 +59,6 @@
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-fxml</artifactId>
 			<version>${org.openjfx.version}</version>
-		</dependency>
-		<!-- miglayout-javafx -->
-		<dependency>
-			<groupId>com.miglayout</groupId>
-			<artifactId>miglayout-javafx</artifactId>
-			<version>${miglayout.version}</version>
 		</dependency>
 		<!-- Logging -->
 		<dependency>
