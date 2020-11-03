@@ -29,3 +29,6 @@ hs_err_pid*
 /openjfx-app-fxml/.classpath
 /openjfx-app-fxml/.gitignore
 /openjfx-app-fxml/.project
+/openjfx-app-miglayout-fxml/.settings
+/openjfx-app-miglayout-fxml/.classpath
+/openjfx-app-miglayout-fxml/.project
