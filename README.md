@@ -1,3 +1,4 @@
+![JavaFX logo](/pics/JavaFX_Logo.png "Java FX logo")
 # JavaFX
 Repositář pro studium a testování - jak naprogramovat desktop GUI via [java.fx](https://en.wikipedia.org/wiki/JavaFX).
 
@@ -33,3 +34,5 @@ Protože Oracle rád maže/přesouvá články, tak budu citovat:
 * https://www.vojtechruzicka.com/javafx-getting-started/ << jak nastavit jdk11+, maven a javafx
 * http://tutorials.jenkov.com/javafx/index.html
 * https://java.vse.cz/4it115/Buchalcevova << přednášky česky o java fx
+* https://oracle-patches.com/en/coding/3458-what-is-javafx << obsahuje historii versi Java FX
+* https://learnjavafx.typepad.com/ << blog obsahuje mnoho článků na téma Java FX
