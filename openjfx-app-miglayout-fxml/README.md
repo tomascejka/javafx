@@ -1,5 +1,5 @@
 # openjfx-app-miglayout-fxml
-Velmi jednoduchá aplikace - formulář se dvě input boxy, presentující použití [openjfx](https://openjfx.io/index.html) (implementace Java FX) a zároveň použití tzv. FXML a [MigLayout](http://www.miglayout.com/).
+Velmi jednoduchá aplikace - formulář se dvě input boxy, presentující použití [openjfx](https://openjfx.io/index.html) (implementace Java FX) a zároveň použití tzv. FXML a [MigLayout](http://www.miglayout.com/). Předmětem tohoto projektu je představit použití MigLayout-u, pokud hledáš použití FXML - podívej se na projekt [openjfx-app-fxml](https://github.com/tomascejka/javafx/tree/main/openjfx-app-fxml).
 
 ## Předpoklady
 V případě, že si budete chtít spustit, anebo si hrát se zdrojovými kódy, tak jsem to ladil s těmito nástroji:
