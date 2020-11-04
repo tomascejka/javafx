@@ -41,3 +41,4 @@ Protože Oracle rád maže/přesouvá články, tak budu citovat:
 * https://java.vse.cz/4it115/Buchalcevova << přednášky česky o java fx
 * https://oracle-patches.com/en/coding/3458-what-is-javafx << obsahuje historii versi Java FX
 * https://learnjavafx.typepad.com/ << blog obsahuje mnoho článků na téma Java FX
+* https://www.jfx-days.com/speakers << kromě pozvánky na konferenci jsou tam tipy na knihy
