@@ -29,6 +29,7 @@ Protože Oracle rád maže/přesouvá články, tak budu citovat:
 * https://docs.oracle.com/javafx/2/css_tutorial/jfxpub-css_tutorial.htm << jak skinovat via CSS styly java.fx aplikace
 * https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html << java.fx css reference stylopisu
 * https://www.tutorialspoint.com/javafx/javafx_css.htm << java.fx css stylování
+* https://www.vojtechruzicka.com/javafx-layouts-basic/ << hezky popsané java.fx layouty
 
 ## OpenJFX
 * https://openjfx.io/openjfx-docs/#introduction << jak nastavit jdk, maven a javafx (via [https://openjfx.io/](openjfx.io))
