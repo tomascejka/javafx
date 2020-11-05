@@ -3,8 +3,10 @@
 Repositář pro studium a testování - jak naprogramovat desktop GUI via [java.fx](https://en.wikipedia.org/wiki/JavaFX).
 
 ## Changelog
-* 02/11/2020 prozatím přikládám zdroje, které jsem prošel a zkusil si jednoduchý "Hello world"
-* 03/11/2020 dokládám další zdroje, změna formulace popisu
+| Kdy        | Kdo         | Co           |
+| ---------- |:-----------:| :---------------------------------------------------------------------------------|
+| 02/11/2020 | tomas.cejka | prozatím přikládám zdroje, které jsem prošel a zkusil si jednoduchý "Hello world" |
+| 03/11/2020 | tomas.cejka | dokládám další zdroje, změna formulace popisu, upravuji/rozděluji fxml/fxml+miglayout projekty |
 
 ## Verse JavaFX
 Do [JDK8](https://docs.oracle.com/javase/8/docs/) lze použít oficiální oracle [distribuci](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm), od [JDK11](https://docs.oracle.com/en/java/javase/11/) je nutné použít již [OpenJFX projekt](https://wiki.openjdk.java.net/display/OpenJFX).
@@ -24,6 +26,10 @@ Protože Oracle rád maže/přesouvá články, tak budu citovat:
 * https://blogs.oracle.com/java/javafx
 * https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm << jak používat FXML v javafx
 * https://docs.oracle.com/javafx/2/get_started/hello_world.htm << oficiální oracle java fx tutoriál pro různé zkoušení
+* https://docs.oracle.com/javafx/2/css_tutorial/jfxpub-css_tutorial.htm << jak skinovat via CSS styly java.fx aplikace
+* https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html << java.fx css reference stylopisu
+* https://www.tutorialspoint.com/javafx/javafx_css.htm << java.fx css stylování
+* https://www.vojtechruzicka.com/javafx-layouts-basic/ << hezky popsané java.fx layouty
 
 ## OpenJFX
 * https://openjfx.io/openjfx-docs/#introduction << jak nastavit jdk, maven a javafx (via [https://openjfx.io/](openjfx.io))
@@ -36,3 +42,4 @@ Protože Oracle rád maže/přesouvá články, tak budu citovat:
 * https://java.vse.cz/4it115/Buchalcevova << přednášky česky o java fx
 * https://oracle-patches.com/en/coding/3458-what-is-javafx << obsahuje historii versi Java FX
 * https://learnjavafx.typepad.com/ << blog obsahuje mnoho článků na téma Java FX
+* https://www.jfx-days.com/speakers << kromě pozvánky na konferenci jsou tam tipy na knihy
