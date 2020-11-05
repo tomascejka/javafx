@@ -32,3 +32,6 @@ hs_err_pid*
 /openjfx-app-miglayout-fxml/.settings
 /openjfx-app-miglayout-fxml/.classpath
 /openjfx-app-miglayout-fxml/.project
+/openjfx-app-control-treeview/.settings
+/openjfx-app-control-treeview/.classpath
+/openjfx-app-control-treeview/.project
