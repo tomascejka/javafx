@@ -41,7 +41,7 @@
 				<artifactId>javafx-maven-plugin</artifactId>
 				<version>${mvn.plugin.openjfx.version}</version>
 				<configuration>
-					<mainClass>cz.toce.openjfx.app.simple.MainApp</mainClass>
+					<mainClass>cz.toce.openjfx.app.MainApp</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -53,6 +53,11 @@
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
+			<version>${org.openjfx.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
 			<version>${org.openjfx.version}</version>
 		</dependency>
 		<!-- Logging -->
