@@ -1,32 +1,52 @@
 package cz.toce.openjfx.app.simple;
 
 import javafx.application.Application;
-import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
+import javafx.scene.control.TreeItem;
+import javafx.scene.control.TreeView;
+import javafx.scene.layout.VBox;
 
+/**
+ * 
+ * @author tomas.cejka
+ * 
+ * @see http://tutorials.jenkov.com/javafx/treeview.html
+ *
+ */
 public class MainApp extends Application {
 
-    private static final Logger LOG = LoggerFactory.getLogger(MainApp.class);
+    //private static final Logger LOG = LoggerFactory.getLogger(MainApp.class);
 
     public static void main(String[] args) throws Exception {
         launch(args);
     }
 
     public void start(Stage stage) throws Exception {
-        LOG.info("Starting Hello JavaFX and Maven demonstration application");
-        LOG.debug("Showing JFX scene");
-        Label rootNode = new Label("Hello world!");
-        rootNode.setAlignment(Pos.CENTER);
-		Scene scene = new Scene(rootNode , 400, 200);
-        scene.getStylesheets().add("/styles/styles.css");
+        TreeItem<String> rootItem = new TreeItem<String>("Tutorials");
 
-        stage.setTitle("Hello JavaFX and Maven");
-        stage.getIcons().add(new Image("https://cdn3.iconfinder.com/data/icons/inficons/512/stackoverflow.png"));
+        TreeItem<String> webItem = new TreeItem<>("Web Tutorials");
+        webItem.getChildren().add(new TreeItem<>("HTML  Tutorial"));
+        webItem.getChildren().add(new TreeItem<>("HTML5 Tutorial"));
+        webItem.getChildren().add(new TreeItem<>("CSS Tutorial"));
+        webItem.getChildren().add(new TreeItem<>("SVG Tutorial"));
+        rootItem.getChildren().add(webItem);
+
+        TreeItem<String> javaItem = new TreeItem<>("Java Tutorials");
+        javaItem.getChildren().add(new TreeItem<>("Java Language"));
+        javaItem.getChildren().add(new TreeItem<>("Java Collections"));
+        javaItem.getChildren().add(new TreeItem<>("Java Concurrency"));
+        rootItem.getChildren().add(javaItem);
+
+        TreeView<String> treeView = new TreeView<>();
+        treeView.setRoot(rootItem);
+        treeView.setShowRoot(false);    	
+    	
+        VBox vbox = new VBox(treeView);
+
+        Scene scene = new Scene(vbox);
         stage.setScene(scene);
         stage.show();
     }

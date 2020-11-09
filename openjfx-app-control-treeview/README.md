@@ -17,5 +17,6 @@ mvn clean javafx:run
 ## Zdroje
 * https://docs.oracle.com/javafx/2/ui_controls/tree-view.htm#
 * https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/TreeView.html
+* http://tutorials.jenkov.com/javafx/treeview.html << pouzity pro ukazku
 * https://examples.javacodegeeks.com/core-java/javafx-treeview-example/
 * http://www.kware.net/?p=204 << Filtering a JavaFX TreeView
