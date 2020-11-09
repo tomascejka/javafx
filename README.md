@@ -2,8 +2,8 @@
 # JavaFX
 Repositář pro studium a testování - jak naprogramovat desktop GUI via [java.fx](https://en.wikipedia.org/wiki/JavaFX).
 
-* [Nastavení](https://github.com/tomascejka/javafx/blob/main/SETUP.md) projektu
-* [Studijní](https://github.com/tomascejka/javafx/blob/main/STUDY.md) zdroje
+* Jak [nastavit](https://github.com/tomascejka/javafx/blob/main/SETUP.md) projekt
+* Kde [studovat](https://github.com/tomascejka/javafx/blob/main/STUDY.md)
 
 ## Changelog
 | Kdy        | Kdo         | Co           |
@@ -11,6 +11,7 @@ Repositář pro studium a testování - jak naprogramovat desktop GUI via [java.
 | 02/11/2020 | tomas.cejka | prozatím přikládám zdroje, které jsem prošel a zkusil si jednoduchý "Hello world" |
 | 03/11/2020 | tomas.cejka | dokládám další zdroje, změna formulace popisu, upravuji/rozděluji fxml/fxml+miglayout projekty |
 | 09/11/2020 | tomas.cejka | novy projekty pro treeView a treeView+fxml |
+| 09/11/2020 | tomas.cejka | textové úpravy: rozdělení na úvod/nastavení a studijní stránku |
 
 ## Projekty
 Koncept je velmi jednoduchý - malé maven projekty (zde je [postup](https://github.com/tomascejka/javafx/blob/main/SETUP.md)). Smyslem je jednoduchost - komplexnost nechat na nějakém úkolu (např. napsat si RSS čtečku). Zde je seznam projektů:
