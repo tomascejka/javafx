@@ -1,5 +1,5 @@
 # openjfx-app-control-treeview
-Velmi jednoduchá aplikace - "helloworld", presentující použití [openjfx](https://github.com/openjdk/jfx/) (implementace Java FX) a komponentu TreeView.
+Velmi jednoduchá aplikace - presentující použití [openjfx](https://github.com/openjdk/jfx/) (implementace Java FX) a komponentu TreeView.
 
 ## Předpoklady
 V případě, že si budete chtít spustit, anebo si hrát se zdrojovými kódy, tak jsem to ladil s těmito nástroji:
