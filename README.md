@@ -10,7 +10,7 @@ Repositář pro studium a testování - jak naprogramovat desktop GUI via [java.
 | 09/11/2020 | tomas.cejka | novy projekty pro treeView a treeView+fxml |
 
 ## Projekty
-Koncept je velmi jednoduchý - presentovat jednoduše java.fx pomocí malých maven projektů. Smyslem je se seznámit jednoduše - komplexnost nechat na nějakém vizi/výzvě anebo konkrétním úkolu, kde bude java.fx vhodné použít (např. napsat si RSS čtečku). Zde je seznam projektů:
+Koncept je velmi jednoduchý - malé maven projekty (zde je [postup](https://github.com/tomascejka/javafx/blob/main/SETUP.md)). Smyslem je jednoduchost - komplexnost nechat na nějakém úkolu (např. napsat si RSS čtečku). Zde je seznam projektů:
 
 * [openjfx-app-simple](https://github.com/tomascejka/javafx/tree/main/openjfx-app-simple) - první a jednoduchý "Hello world"
 * [openjfx-app-fxml](https://github.com/tomascejka/javafx/tree/main/openjfx-app-fxml) - velmi prosté seznámení se s FXML (Model View Controller přístup v java.fx)
