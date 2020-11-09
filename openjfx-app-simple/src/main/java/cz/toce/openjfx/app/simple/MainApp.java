@@ -17,6 +17,13 @@ public class MainApp extends Application {
         launch(args);
     }
 
+    /**
+     * The main entry point for all JavaFX applications.
+     * The start method is called after the init method has returned,
+     * and after the system is ready for the application to begin running.
+     * 
+     * @see {@link Application#start(Stage)}
+     */
     public void start(Stage stage) throws Exception {
         LOG.info("Starting Hello JavaFX and Maven demonstration application");
         LOG.debug("Showing JFX scene");
