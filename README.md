@@ -3,7 +3,8 @@
 Repositář pro studium a testování - jak naprogramovat desktop GUI via [java.fx](https://en.wikipedia.org/wiki/JavaFX).
 
 * Jak [nastavit](https://github.com/tomascejka/javafx/blob/main/SETUP.md) projekt
-* Kde [studovat](https://github.com/tomascejka/javafx/blob/main/STUDY.md)
+* Kde [studovat](https://github.com/tomascejka/javafx/blob/main/STUDY.md) zdroje o Java FX
+* Co si [přečíst](https://github.com/tomascejka/javafx/tree/main/doc) o Java FX
 
 ## Changelog
 | Kdy        | Kdo         | Co           |
