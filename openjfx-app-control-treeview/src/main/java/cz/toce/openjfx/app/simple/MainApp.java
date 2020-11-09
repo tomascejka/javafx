@@ -7,6 +7,7 @@ import javafx.stage.Stage;
 //import org.slf4j.LoggerFactory;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeView;
+import javafx.scene.image.Image;
 import javafx.scene.layout.VBox;
 
 /**
@@ -42,11 +43,13 @@ public class MainApp extends Application {
 
         TreeView<String> treeView = new TreeView<>();
         treeView.setRoot(rootItem);
-        treeView.setShowRoot(false);    	
-    	
-        VBox vbox = new VBox(treeView);
+        treeView.setShowRoot(false);
 
-        Scene scene = new Scene(vbox);
+        Scene scene = new Scene(new VBox(treeView));
+        scene.getStylesheets().add("/styles/styles.css");
+
+        stage.setTitle("JavaFX - TreeView control");
+        stage.getIcons().add(new Image("https://cdn3.iconfinder.com/data/icons/inficons/512/stackoverflow.png"));
         stage.setScene(scene);
         stage.show();
     }

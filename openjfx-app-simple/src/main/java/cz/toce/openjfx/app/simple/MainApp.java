@@ -25,14 +25,15 @@ public class MainApp extends Application {
      * @see {@link Application#start(Stage)}
      */
     public void start(Stage stage) throws Exception {
-        LOG.info("Starting Hello JavaFX and Maven demonstration application");
+        LOG.info("Starting JavaFX and Maven demonstratsion application");
         LOG.debug("Showing JFX scene");
         Label rootNode = new Label("Hello world!");
         rootNode.setAlignment(Pos.CENTER);
+        
 		Scene scene = new Scene(rootNode , 400, 200);
         scene.getStylesheets().add("/styles/styles.css");
 
-        stage.setTitle("Hello JavaFX and Maven");
+        stage.setTitle("JavaFX - Simple app using maven");
         stage.getIcons().add(new Image("https://cdn3.iconfinder.com/data/icons/inficons/512/stackoverflow.png"));
         stage.setScene(scene);
         stage.show();
