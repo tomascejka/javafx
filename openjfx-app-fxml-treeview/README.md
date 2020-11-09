@@ -18,4 +18,5 @@ mvn clean javafx:run
 * https://docs.oracle.com/javafx/2/ui_controls/tree-view.htm#
 * https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/TreeView.html
 * https://gist.github.com/jewelsea/5174074 << pouzity pro ukazku
+* https://stackoverflow.com/questions/15439894/javafx-wrapping-fxml-to-java-class-controller << popisuje, proc
 * https://examples.javacodegeeks.com/core-java/javafx-treeview-example/
