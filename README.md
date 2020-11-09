@@ -21,11 +21,11 @@ Protože Oracle rád maže/přesouvá články, tak budu citovat:
 ## Projekty
 Koncept je velmi jednoduchý - presentovat jednoduše java.fx pomocí malých maven projektů. Smyslem je se seznámit jednoduše - komplexnost nechat na nějakém vizi/výzvě anebo konkrétním úkolu, kde bude java.fx vhodné použít (např. napsat si RSS čtečku). Zde je seznam projektů:
 
-* openjfx-app-simple - první a jednoduchý "Hello world"
-* openjfx-app-fxml - velmi prosté seznámení se s FXML (Model View Controller přístup v java.fx)
-* openjfx-app-control-treeview - jednoduché použití TreeView komponenty
-* openjfx-app-fxml-treeview - použití TreeView komponenty pomocí FXML
-* openjfx-app-miglayout-fxml - jednoduché použití nestandartníhé layout managera - MigLayout
+* [openjfx-app-simple](https://github.com/tomascejka/javafx/tree/main/openjfx-app-simple) - první a jednoduchý "Hello world"
+* [openjfx-app-fxml](https://github.com/tomascejka/javafx/tree/main/openjfx-app-fxml) - velmi prosté seznámení se s FXML (Model View Controller přístup v java.fx)
+* [openjfx-app-control-treeview](https://github.com/tomascejka/javafx/tree/main/openjfx-app-control-treeview) - jednoduché použití TreeView komponenty
+* [openjfx-app-fxml-treeview](https://github.com/tomascejka/javafx/tree/main/openjfx-app-fxml-treeview) - použití TreeView komponenty pomocí FXML
+* [openjfx-app-miglayout-fxml](https://github.com/tomascejka/javafx/tree/main/openjfx-app-miglayout-fxml) - použití nestandartního layout managera - MigLayout
 
 ## Zdroje
 
