@@ -9,15 +9,6 @@ Repositář pro studium a testování - jak naprogramovat desktop GUI via [java.
 | 03/11/2020 | tomas.cejka | dokládám další zdroje, změna formulace popisu, upravuji/rozděluji fxml/fxml+miglayout projekty |
 | 09/11/2020 | tomas.cejka | novy projekty pro treeView a treeView+fxml |
 
-## Verse JavaFX
-Do [JDK8](https://docs.oracle.com/javase/8/docs/) lze použít oficiální oracle [distribuci](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm), od [JDK11](https://docs.oracle.com/en/java/javase/11/) je nutné použít již [OpenJFX projekt](https://wiki.openjdk.java.net/display/OpenJFX).
-
-Protože Oracle rád maže/přesouvá články, tak budu citovat:
->For more information on JavaFX with Java SE 8, please refer to the JavaFX Documentation.
->For JDK 11 and later releases, Oracle has open sourced JavaFX. You can find more information at OpenJFX project.
-
-[zdroj]( https://www.oracle.com/java/technologies/javase/javafx-overview.html)
-
 ## Projekty
 Koncept je velmi jednoduchý - presentovat jednoduše java.fx pomocí malých maven projektů. Smyslem je se seznámit jednoduše - komplexnost nechat na nějakém vizi/výzvě anebo konkrétním úkolu, kde bude java.fx vhodné použít (např. napsat si RSS čtečku). Zde je seznam projektů:
 
@@ -28,6 +19,10 @@ Koncept je velmi jednoduchý - presentovat jednoduše java.fx pomocí malých ma
 * [openjfx-app-miglayout-fxml](https://github.com/tomascejka/javafx/tree/main/openjfx-app-miglayout-fxml) - použití nestandartního layout managera - MigLayout
 
 ## Zdroje
+
+### OpenJFX
+* https://openjfx.io/openjfx-docs/#introduction << jak nastavit jdk, maven a javafx (via [https://openjfx.io/](openjfx.io))
+* https://github.com/openjfx/javafx-maven-plugin << maven plugin pro javafx vývoj
 
 ### Oracle
 * https://www.oracle.com/java/technologies/javase/javafx-overview.html
@@ -41,10 +36,6 @@ Koncept je velmi jednoduchý - presentovat jednoduše java.fx pomocí malých ma
 * https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html << java.fx css reference stylopisu
 * https://www.tutorialspoint.com/javafx/javafx_css.htm << java.fx css stylování
 * https://www.vojtechruzicka.com/javafx-layouts-basic/ << hezky popsané java.fx layouty
-
-## OpenJFX
-* https://openjfx.io/openjfx-docs/#introduction << jak nastavit jdk, maven a javafx (via [https://openjfx.io/](openjfx.io))
-* https://github.com/openjfx/javafx-maven-plugin << maven plugin pro javafx vývoj
 
 ## Others
 * http://fxexperience.com/
