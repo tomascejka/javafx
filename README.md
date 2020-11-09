@@ -21,6 +21,7 @@ Protože Oracle rád maže/přesouvá články, tak budu citovat:
 
 ### Oracle
 * https://www.oracle.com/java/technologies/javase/javafx-overview.html
+* https://docs.oracle.com/javafx/2/
 * https://docs.oracle.com/javase/8/javase-clienttechnologies.htm
 * https://www.oracle.com/java/technologies/javase/javafx-docs.html
 * https://blogs.oracle.com/java/javafx
