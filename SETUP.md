@@ -98,6 +98,11 @@ V tomto bodě ještě nastavíme závislost na knihovny, které si přejeme pou�
 	</dependencies>
 ```
 
+## Shrnutí
+Tady je pom.xml celý
+
+<script src="https://gist.github.com/tomascejka/105e4bbb8d50a10f28839680d6b5dad7.js"></script>
+
 ## Zdroje
 
 ### OpenJFX
