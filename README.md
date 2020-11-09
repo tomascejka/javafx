@@ -7,6 +7,7 @@ Repositář pro studium a testování - jak naprogramovat desktop GUI via [java.
 | ---------- |:-----------:| :---------------------------------------------------------------------------------|
 | 02/11/2020 | tomas.cejka | prozatím přikládám zdroje, které jsem prošel a zkusil si jednoduchý "Hello world" |
 | 03/11/2020 | tomas.cejka | dokládám další zdroje, změna formulace popisu, upravuji/rozděluji fxml/fxml+miglayout projekty |
+| 09/11/2020 | tomas.cejka | novy projekty pro treeView a treeView+fxml |
 
 ## Verse JavaFX
 Do [JDK8](https://docs.oracle.com/javase/8/docs/) lze použít oficiální oracle [distribuci](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm), od [JDK11](https://docs.oracle.com/en/java/javase/11/) je nutné použít již [OpenJFX projekt](https://wiki.openjdk.java.net/display/OpenJFX).
@@ -16,6 +17,15 @@ Protože Oracle rád maže/přesouvá články, tak budu citovat:
 >For JDK 11 and later releases, Oracle has open sourced JavaFX. You can find more information at OpenJFX project.
 
 [zdroj]( https://www.oracle.com/java/technologies/javase/javafx-overview.html)
+
+## Projekty
+Koncept je velmi jednoduchý - presentovat jednoduše java.fx pomocí malých maven projektů. Smyslem je se seznámit jednoduše - komplexnost nechat na nějakém vizi/výzvě anebo konkrétním úkolu, kde bude java.fx vhodné použít (např. napsat si RSS čtečku). Zde je seznam projektů:
+
+* openjfx-app-simple - první a jednoduchý "Hello world"
+* openjfx-app-fxml - velmi prosté seznámení se s FXML (Model View Controller přístup v java.fx)
+* openjfx-app-control-treeview - jednoduché použití TreeView komponenty
+* openjfx-app-fxml-treeview - použití TreeView komponenty pomocí FXML
+* openjfx-app-miglayout-fxml - jednoduché použití nestandartníhé layout managera - MigLayout
 
 ## Zdroje
 
