@@ -26,3 +26,4 @@ Koncept je velmi jednoduchý - malé maven projekty (zde je [postup](https://git
 ## Zdroje
 * https://openjfx.io
 * https://docs.oracle.com/javase/8/javase-clienttechnologies.htm
+* https://github.com/openjfx/samples
